@@ -4,13 +4,13 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace eCommerce.Data
+namespace eCommerce.Data.Enums
 {
     public enum MovieCategory
     {
-       Action = 1,
-       Comedy,
-       Drama,
-       Documentary
+        Action = 1,
+        Comedy,
+        Drama,
+        Documentary
     }
 }
