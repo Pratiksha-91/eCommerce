@@ -15,8 +15,8 @@ namespace final_demo_mvc.Models
 
         public string Description { get; set; }
 
-        public int price { get; set; }
-
+        public double price { get; set; }
+       
         public string ImageURL { get; set; }
 
         public DateTime StartDate { get; set; }

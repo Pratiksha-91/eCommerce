@@ -10,7 +10,7 @@ namespace eCommerce.Models
 
         public int ActorId { get; set; }
 
-        public int Actor { get; set; }
+        public Actor  Actor { get; set; }
 
     }
 }
